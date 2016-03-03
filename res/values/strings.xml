@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">A&amp;R Radar</string>
+    <string name="url"></string>
+    <string name="verison">Version 2.1</string>
+    <string name="credits">by dude719</string>
+
+    <string name="nowifi">This app needs an active Wifi-connection!</string>
+    <string name="waiting">waiting for connection&#8230;</string>
+    <string name="noconnection">no active connection</string>
+
+    <string name="logoAlt">logo</string>
+
+    <string-array name="value_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item >3</item>
+        <item >4</item> 
+    </string-array>
+   	<string-array name="radar_background_skin">
+        <item>none</item>
+        <item>Grid</item>
+        <item>Circles</item>
+        <item >FOV Lines</item>
+        <item >Middle Line</item> 
+    </string-array>
+    <string-array name="radar_player_skin">
+        <item>Square</item>
+        <item>Circle</item>
+        <item >Triangle</item>
+    </string-array>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="lightgrey">#BBBBBB</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="green">#00FF00</color>
+    <color name="darkgrey">#333333</color>
+</resources>

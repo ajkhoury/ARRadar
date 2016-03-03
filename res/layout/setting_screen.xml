@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SettingActivity" >
+
+    <PreferenceCategory android:title="Radar" >
+
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="Background Skin"
+            android:entries="@array/radar_background_skin"
+            android:entryValues="@array/value_array"
+            android:key="radar_background_skin"
+            android:summary="switch radar background"
+            android:title="Background Skin" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="Player Skin"
+            android:entries="@array/radar_player_skin"
+            android:entryValues="@array/value_array"
+            android:key="radar_player_skin"
+            android:summary="switch player skin"
+            android:title="Player Skin" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="radar_show_health"
+            android:summary="show player health"
+            android:title="Show Health" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="radar_show_friendly"
+            android:summary="show friendly players"
+            android:title="Show Friendly" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Notification" >
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="notification_sound"
+            android:summary="play a sound if enemy is near"
+            android:title="Sound" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="notification_vibration"
+            android:summary="vibrate if enemy is near"
+            android:title="Vibration" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
+    
