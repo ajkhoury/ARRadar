@@ -5,9 +5,7 @@
     android:versionName="Version 1">
     
     <!-- android:targetSdkVersion="LOLLIPOP" -->  
-    <uses-sdk 
-        android:targetSdkVersion="22"
-        android:minSdkVersion="17" />
+    <uses-sdk android:minSdkVersion="17" />
     
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>

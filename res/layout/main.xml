@@ -25,16 +25,6 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="@color/lightgrey" />
 
-    <ImageView
-        android:id="@+id/logoImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="42dp"
-        android:contentDescription="@string/logoAlt"
-        android:src="@drawable/background"
-        android:layout_below="@+id/versionLabel"
-        android:layout_centerHorizontal="true" />
-
     <TextView
         android:id="@+id/creditsLabel"
         android:layout_width="wrap_content"
@@ -46,14 +36,6 @@
         android:layout_alignStart="@+id/versionLabel"
         android:layout_alignEnd="@+id/titleLabel" />
 
-    <ProgressBar
-        android:id="@+id/waitingProgressBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/logoImage"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp" />
-
     <TextView
         android:id="@+id/waitingLabel"
         android:layout_width="wrap_content"
@@ -63,5 +45,22 @@
         android:textColor="@color/white"
         android:layout_below="@+id/waitingProgressBar"
         android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        android:id="@+id/waitingProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logoImage"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/versionLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:contentDescription="@string/logoAlt"
+        android:src="@drawable/background" />
 
 </RelativeLayout>

@@ -3,7 +3,7 @@
     <string name="app_name">A&amp;R Radar</string>
     <string name="url"></string>
     <string name="verison">Version 2.1</string>
-    <string name="credits">by dude719</string>
+    <string name="credits">by dude719 &amp; KN4CK3R</string>
 
     <string name="nowifi">This app needs an active Wifi-connection!</string>
     <string name="waiting">waiting for connection&#8230;</string>
